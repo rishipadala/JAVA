@@ -170,5 +170,5 @@ public class PS7Qs {
         System.out.print("The Sum Of N natural Number is : "+ sum(10) );
     }
 
-
+    //--------------------------------------------------------------------------------
 }
