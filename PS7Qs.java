@@ -149,12 +149,25 @@ public class PS7Qs {
 //    }
 
     //Problem 9: Function To Convert Celsius To Fahrenheit using Methods/Functions
-    static float ConvertCtoF(float C){
-        return (C * 9/5) + 32;
+//    static float ConvertCtoF(float C){
+//        return (C * 9/5) + 32;
+//    }
+//
+//    public static void main(String[] args) {
+//        System.out.println("The Conversion Of Celsius Into Fahrenheit is: " + ConvertCtoF(34));
+//    }
+
+    // PROBLEM 10: Repeat Problem 3 sum of first N natural no.s Using Iterative approach
+    static int sum(int n){
+        int Sum = 0;
+        for (int i = 0; i <= n ; i++) {
+            Sum += i;
+        }
+        return Sum;
     }
 
     public static void main(String[] args) {
-        System.out.println("The Conversion Of Celsius Into Fahrenheit is: " + ConvertCtoF(34));
+        System.out.print("The Sum Of N natural Number is : "+ sum(10) );
     }
 
 
