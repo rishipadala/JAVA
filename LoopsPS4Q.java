@@ -29,9 +29,9 @@ public class LoopsPS4Q {
 //        System.out.print(sum);
         // 0 2 4 6 8 10
 
-//        // Q3 Multiplication Table Of Number using loop
+//        //Q3 Multiplication Table Of Number using loop
 //        int n = 5;
-//        for (int i = 1; i <= 10; i++){
+//        for (int i = 1;  i <= 10; i++){
 //            System.out.printf("%d X %d = %d\n",n,i,n*i);
 //        }
 
