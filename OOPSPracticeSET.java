@@ -83,13 +83,38 @@ class RockstarGames{
 // * Problem 6 (Class)
 
 class Circle{
-    float r;
-    float pi =3.14159f;
-    public float area(){
-        return pi*r*r;
+    private float r;
+    private float area;
+    private float perimeter;
+    public void setR(int r1){
+        this.r=r1;
     }
-    public float perimeter(){
-        return 2*pi*r;
+    public void setArea(float a){
+        this.area=a;
+        if(area==a){
+            area = 3.14159f*r*r;
+        }
+        else {
+            System.out.println("WARNING! You have enter Invalid Input...");
+        }
+    }
+    public void setPerimeter(float p){
+        this.perimeter = p;
+        if(perimeter==p){
+           perimeter = 2*3.14159f*r;
+        }
+        else {
+            System.out.println("WARNING! You have enter Invalid Input...");
+        }
+    }
+    public float getR(){
+        return r;
+    }
+    public float getArea(){
+        return area;
+    }
+    public float getPerimeter(){
+        return perimeter ;
     }
 }
 
@@ -135,10 +160,17 @@ public class OOPSPracticeSET {
 
         // * Problem 6
 
+//        Circle circle = new Circle();
+//        circle.r = 9;
+
+
+        // * Getters & Setters (Private access Modifier)
         Circle circle = new Circle();
-        circle.r = 9;
-        System.out.println("Area Of Circle is " + circle.area());
-        System.out.println("Perimeter Of Circle is " + circle.perimeter());
+        circle.setR(9);
+        circle.setArea(254.571428571429f);
+        circle.setPerimeter(56.5714285714286f);
+        System.out.println("Area "+ circle.getArea());
+        System.out.println("Perimeter " +circle.getPerimeter());
 
     }
 }
