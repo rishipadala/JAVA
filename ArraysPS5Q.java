@@ -36,27 +36,27 @@ public class ArraysPS5Q {
 //        System.out.println("The Avg of all 5 students containing Physics marks is : " + sum/marks.length);
 
         //Q4 2 matrix addition
-//        int [][] mat1  = { {1,2,3},
-//                           {4,5,6} };
-//        int [][] mat2 = {{5,1,8},
-//                         {4,6,2} };
-//        int [][] result = {{0,0,0},
-//                           {0,0,0} };
-//
-//        // Setting the value of i & j
-//        for (int i =0; i < mat1.length ; i++){
-//            for (int j = 0; j < mat1[i].length ; j++){
-//                System.out.printf("Setting The Value of  i = %d & j = %d\n",i,j);
-//            }
-//        }
-//        //printing the elements of 2d array
-//        for (int i =0; i < mat1.length ; i++){           //row number of times {row --> = 2} //mat1 pura array ka total length
-//            for (int j = 0; j < mat1[i].length ; j++){    //column number of times{column --> 3}  // mat1[i] means first arrays length.
-//                result[i][j] = mat1[i][j] + mat2[i][j];
-//                System.out.print(result[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
+        int [][] mat1  = { {1,2,3},
+                           {4,5,6} };
+        int [][] mat2 = {{5,1,8},
+                         {4,6,2} };
+        int [][] result = {{0,0,0},
+                           {0,0,0} };
+
+        // Setting the value of i & j
+        for (int i =0; i < mat1.length ; i++){
+            for (int j = 0; j < mat1[i].length ; j++){
+                System.out.printf("Setting The Value of  i = %d & j = %d\n",i,j);
+            }
+        }
+        //printing the elements of 2d array
+        for (int i =0; i < mat1.length ; i++){           //row number of times {row --> = 2} //mat1 pura array ka total length
+            for (int j = 0; j < mat1[i].length ; j++){    //column number of times{column --> 3}  // mat1[i] means first arrays length.
+                result[i][j] = mat1[i][j] + mat2[i][j];
+                System.out.print(result[i][j] + " ");
+            }
+            System.out.println();
+        }
 
         //To Reverse an ARRAY
 //        int [] a = {1,2,3,4,5,6,5,2};
@@ -97,8 +97,8 @@ public class ArraysPS5Q {
         //Q8 To Find whether an array is Sorted Or Not?
         boolean IsSorted = true;
         int [] a = {100,200,300,400,500,655,700};
-        for (int i=0;i < a.length -1 ; i++){
-            if (a[i] > a[i+1] ) {
+        for (int i=0;i < a.length - 1 ; i++){
+            if (a[i] > a[i+1]) {
                 IsSorted = false;
                 break;
             }
@@ -109,9 +109,6 @@ public class ArraysPS5Q {
         else {
             System.out.println("The Array is Not Sorted");
         }
-        
-
-
 
     }
 }
