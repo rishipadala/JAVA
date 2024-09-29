@@ -29,7 +29,7 @@ public class PS7Qs {
 //        patt(9);
 //    }
 
-    //Problem 4 :-Print Star Pattern Using Methods In Reverse Order
+    //Problem 4 :- Print Star Pattern Using Methods In Reverse Order
 //    static int patt2(int n){
 //        for (int i=n-1; i>=0; i--)
 //        {
@@ -44,7 +44,7 @@ public class PS7Qs {
 //        patt2(8);
 //    }
 
-    //Problem 3 :-  Sum of First n Natural Number using Recursion
+    //Problem 3 :- Sum of First n Natural Number using Recursion
     /* Formula
     Sum(n) = 1 + 2 + 3 + .... + n-1 + n; -- (1)
     Sum(n) = Sum(n-1) + n --> From (1)  {This IS THe FORMULA}
@@ -107,9 +107,10 @@ public class PS7Qs {
 
 
     //Problem 7 :- Repeat Problem 2 Using Recursion
-//    static void patt_rec(int n) {
-//        if (n > 0) {
-//            patt_rec(n-1);
+    static void patt_rec(int n) {
+        if (n > 0) {
+            patt_rec(n - 1);
+
 
              /* HERE
 
@@ -121,16 +122,16 @@ public class PS7Qs {
             JUST DEBUG THE CODE U GET IT!
              */
 
-//            for (int i = 0; i < n; i++) {
-//                System.out.print("*");
-//            }
-//            System.out.println();
-//        }
-//    }
-//
-//    public static void main(String[] args) {
-//        patt_rec(5);
-//    }
+            for (int i = 0; i < n; i++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args) {
+        patt_rec(5);
+    }
 
     //Problem 8 :- Repeat Problem 4 Using Recursion
 //        static void patt_rec(int n) {
@@ -158,17 +159,17 @@ public class PS7Qs {
 //    }
 
     // PROBLEM 10: Repeat Problem 3 sum of first N natural no.s Using Iterative approach
-    static int sum(int n){
-        int Sum = 0;
-        for (int i = 0; i <= n ; i++) {
-            Sum += i;
-        }
-        return Sum;
-    }
-
-    public static void main(String[] args) {
-        System.out.print("The Sum Of N natural Number is : "+ sum(10) );
-    }
+//    static int sum(int n){
+//        int Sum = 0;
+//        for (int i = 0; i <= n ; i++) {
+//            Sum += i;
+//        }
+//        return Sum;
+//    }
+//
+//    public static void main(String[] args) {
+//        System.out.print("The Sum Of N natural Number is : "+ sum(10) );
+//    }
 
     //--------------------------------------------------------------------------------
 }

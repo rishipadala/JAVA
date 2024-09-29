@@ -3,7 +3,7 @@ package com.company;
 public class recursionrough {
     static int factorial(int n){
         //factorial(n) = n * factorial(n-1)
-        // here factorial(n-1)= n-1 *.....1
+        // here factorial(n-1)= n-1 *.....* 1
         if(n == 0 || n == 1){
             return 1;
         }
@@ -30,7 +30,7 @@ public class recursionrough {
         }
     }
     public static void main(String[] args) {
-        int n = 1;
+        int n = 10;
         System.out.println("The value of Factorial is : " + factorial(n));
         System.out.println("The value of Factorial is : " + factorialiterative(n));
 
