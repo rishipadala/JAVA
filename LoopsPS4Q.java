@@ -41,7 +41,7 @@ public class LoopsPS4Q {
 //            System.out.printf("%d X %d = %d\n",n,i,n*i);
 //        }
 
-        // Q5 Factorial
+        // Q5 Factorial using while loop
 //        int n = 5;
 //        int i = 1;
 //        int factorial = 1;
@@ -52,7 +52,7 @@ public class LoopsPS4Q {
 //        }
 //        System.out.println(factorial);
 
-        // Q5 using while loop
+        // Q5 using for loop
 //        int n = 6;
 //        int factorial = 1;
 //        for (int i = 1; i<=n ; i++){
@@ -92,19 +92,19 @@ public class LoopsPS4Q {
 //        System.out.print(sum);
 
 // repeat Q1 using while loop
-        int n = 4;
-
-        int i = n - 1 ; //n-1 bcoz we want rows to be 4 (0,1,2,3<--(n-1))
-
-        while ( i >= 0) {
-            int j = 0;
-            while (j <= i) {
-                System.out.print("*");
-                j++;
-            }
-            System.out.println();
-            i--;
-        }
+//        int n = 4;
+//
+//        int i = n - 1 ; //n-1 bcoz we want rows to be 4 (0,1,2,3<--(n-1))
+//
+//        while ( i >= 0) {
+//            int j = 0;
+//            while (j <= i) {
+//                System.out.print("*");
+//                j++;
+//            }
+//            System.out.println();
+//            i--;
+//        }
 
     }
 }

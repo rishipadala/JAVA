@@ -87,7 +87,7 @@ public class PS7Qs {
 //    }
 //
 //    public static void main(String[] args) {
-//        int c = Fib(10);
+//        int c = Fib(4);
 //        System.out.println(c);
 //    }
 
@@ -161,7 +161,7 @@ public class PS7Qs {
     // PROBLEM 10: Repeat Problem 3 sum of first N natural no.s Using Iterative approach
 //    static int sum(int n){
 //        int Sum = 0;
-//        for (int i = 0; i <= n ; i++) {
+//        for (int i = 1; i <= n ; i++) {
 //            Sum += i;
 //        }
 //        return Sum;

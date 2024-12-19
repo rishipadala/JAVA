@@ -17,7 +17,7 @@ public class ps2Q {
 
         // check given no. is greater or not using comparison ops
 //        Scanner sc = new Scanner(System.in);
-
+//
 //        System.out.println("Enter number 1 : ");
 //        int n1 = sc.nextInt();
 //
@@ -36,9 +36,9 @@ public class ps2Q {
 
         //last question of PS2
 
-//        int x = 7;
-//        int a = ((7*49)/7 + 35/7);
-//        System.out.println(a);
+        int x = 7;
+        int a = ((7*49)/7 + 35/7);
+        System.out.println(a);
 
 
 

@@ -122,7 +122,7 @@ public class OOPSPracticeSET {
     public static void main(String[] args) {
         // * Problem 1
 //        Employee Rishi = new Employee();
-//        Rishi.setName("Say My Name , You are HEISENBERG!");
+//        Rishi.setName("Hey There Fellas! My Name is Rishi Padala.");
 //        Rishi.Salary = 250000;
 //        System.out.println(Rishi.getName());
 //        System.out.println(Rishi.getSalary());

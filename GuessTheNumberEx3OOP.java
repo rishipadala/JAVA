@@ -34,13 +34,6 @@ class game{
            return false;
     }
 
-    public void setNoofGuesses(int noofGuesses) {
-        NoofGuesses = noofGuesses;
-    }
-
-    public int getNoofGuesses() {
-        return NoofGuesses;
-    }
 }
 
 public class GuessTheNumberEx3OOP {

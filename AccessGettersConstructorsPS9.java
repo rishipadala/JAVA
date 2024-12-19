@@ -63,13 +63,15 @@ class sphere{
     public sphere(int radius) {
         this.radius = radius;
     }
+//overloaded constructor
+    public sphere() {
+        this.radius = 5;
+    }
 
     public int getRadius() {
         return radius;
     }
-    public void setRadius(int radius) {
-        this.radius = radius;
-    }
+
     public double surfacearea(){
         return 4*Math.PI*radius*radius;
     }
@@ -90,7 +92,7 @@ public class AccessGettersConstructorsPS9 {
 //          cy.setRadius(5);
 //          cy.setHeight(10);
 //          System.out.println(cy.getHeight());
-//        System.out.println(cy.getRadius());
+//          System.out.println(cy.getRadius());
 //          System.out.println("Surface Area : " + cy.surfacearea());
 //          System.out.println("Volume : " + cy.volume());
 
