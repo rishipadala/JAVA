@@ -13,9 +13,8 @@ import java.util.Date;
  User should be able to add books, return issued books, issue books
  Assume that all the users are registered with their names in the central database
 
-
  /**
- * In this program , i made 3 methods in book class : issuedbook,returnbook,displaybookinfo
+ * In this program , I made 3 methods in book class : issuedbook,returnbook,displaybookinfo
  * basically the book class is all about gathering book's Info...
  */
 
